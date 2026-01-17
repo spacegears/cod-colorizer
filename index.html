@@ -1,13 +1,8 @@
 <!doctype html>
+<html lang="en">
 <head>
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
-    />
-    <link
-        rel="shortcut icon"
-        href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAp9JREFUeNpsk8tPU1EQh6fl3t62t22svYBACxS4BMJD5CGiKErUILohkYUkJi7QlRhNSFixMK7UlS5cuNSVif8BiYpoFEFAEKtVKBShpbwqUPqC1hkyJPVxky85Z87M78zMmauBfz8B2YfYkQNIEvEh80gQ2Ul1TvuPgIRkIQfLVculKqdUOuWL/sI9EUK2U521fwVrED2SjqhWi1hT7jQ04rqYbXr2+SNdHR/oeZ2BFCJFmTa9oyxfJD8VmUW2kCUkhkQIErBxrQpiYYHijP1SmdGQJtosApTm6stc3sgy2o1IAFlHaO8XuN4qpJTXVhJz2mV1L82mSrOKAnEuZY2b6kLGSMBy4Wzd6dYzNRe9P73iWjC4G5RMJiC67odoPAGeQNh08pDxMNnTFTOUqFnx18P+5/0f/NP0CunuqQWYmVuFnq5ruSca6gX8YHMrBLHtBEx+84GgN0DT0WLovHwMaqsLI/cfj/QNTwT6MdZDHXVwk2qRuts9V091dbbb5hZXYH1jFCueAIczCyTZBI+ejKzcefDmJfoNIcPId8qAagvzwMiv3o6YJnxB+/ySR9PRGgOzXA4/Bvvgyyd3ouvu6Bj6fGQB6sGKlp+DurqKbCgZiqTYZO2NDmm3FxalCHJKWiDTKmorCoxk3GBfioloUyaSDk35akFOZ5sOJGE7cav33eLN3meLZvvxBAmdP2LNIR+eF4pNCiwg8iBJV9odVpNuc6u57cWQyx3E4fkKA4PjeU8fdtc1VMziE8/r+DKK0Qg8mlR/rKkxTxJ3ApPVzQPvcT+DLJC6yz2TXdty/fO97nP1lQXyzvh0KMYxu8EaTisbcfIghTl4mTNUeMgMXL+Hhym0J0DpyIiZ64tys8IsYOBLpJQz+i/ivwUYAKMM0lh2/5MLAAAAAElFTkSuQmCC"
-    />
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link rel="icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAp9JREFUeNpsk8tPU1EQh6fl3t62t22svYBACxS4BMJD5CGiKErUILohkYUkJi7QlRhNSFixMK7UlS5cuNSVif8BiYpoFEFAEKtVKBShpbwqUPqC1hkyJPVxky85Z87M78zMmauBfz8B2YfYkQNIEvEh80gQ2Ul1TvuPgIRkIQfLVculKqdUOuWL/sI9EUK2U521fwVrED2SjqhWi1hT7jQ04rqYbXr2+SNdHR/oeZ2BFCJFmTa9oyxfJD8VmUW2kCUkhkQIErBxrQpiYYHijP1SmdGQJtosApTm6stc3sgy2o1IAFlHaO8XuN4qpJTXVhJz2mV1L82mSrOKAnEuZY2b6kLGSMBy4Wzd6dYzNRe9P73iWjC4G5RMJiC67odoPAGeQNh08pDxMNnTFTOUqFnx18P+5/0f/NP0CunuqQWYmVuFnq5ruSca6gX8YHMrBLHtBEx+84GgN0DT0WLovHwMaqsLI/cfj/QNTwT6MdZDHXVwk2qRuts9V091dbbb5hZXYH1jFCueAIczCyTZBI+ejKzcefDmJfoNIcPId8qAagvzwMiv3o6YJnxB+/ySR9PRGgOzXA4/Bvvgyyd3ouvu6Bj6fGQB6sGKlp+DurqKbCgZiqTYZO2NDmm3FxalCHJKWiDTKmorCoxk3GBfioloUyaSDk35akFOZ5sOJGE7cav33eLN3meLZvvxBAmdP2LNIR+eF4pNCiwg8iBJV9odVpNuc6u57cWQyx3E4fkKA4PjeU8fdtc1VMziE8/r+DKK0Qg8mlR/rKkxTxJ3ApPVzQPvcT+DLJC6yz2TXdty/fO97nP1lQXyzvh0KMYxu8EaTisbcfIghTl4mTNUeMgMXL+Hhym0J0DpyIiZ64tys8IsYOBLpJQz+i/ivwUYAKMM0lh2/5MLAAAAAElFTkSuQmCC"/>
     <title>cod-colorizer</title>
     <style>
         :root {
@@ -18,28 +13,15 @@
             box-sizing: border-box;
         }
 
-        * + * {
-            margin: 1em 0 auto;
-        }
-
         body {
             color: #392f13;
             background-color: #534f47;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
-
-        @media (min-width: 35em) {
-            .col {
-                display: table-cell;
-            }
-            .row {
-                display: table;
-            }
-        }
-
-        .row {
-            width: 100%;
+        
+        .container > * + * {
+            margin-top: 1em;
         }
 
         .container {
@@ -49,13 +31,10 @@
             font: 1em/1.6 var(--font);
         }
 
-        h4, #colored {
-            font-family: var(--font);
-            font-size: 1.5em;
-            font-weight: bold;
+        h4, #colorized {
             color: white;
-            line-height: 1.4;
-            margin: 0.5em 0;
+            font: bold 1.5em/1.4 var(--font);
+            margin: 0;
             padding: 0;
             white-space: pre-wrap;
             word-break: break-word;
@@ -72,203 +51,339 @@
         }
 
         a:hover {
-            color: black;
+            color: #392d1a;
+        }
+        
+        input:focus {
+            border-radius: 0.15em;
         }
 
-        .box-main .row, .box-color .row {
+        input:focus {
+            outline: none;
+        }
+
+        .box-sub {
+            position: relative;
+            background: #6f6a60;
+            padding: 1em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             text-align: center;
             font-size: 0.8em;
+            gap: 0.3em;
+        }
+        
+        .box-label {
+            position: absolute;
+            top: 0.5em;
+            left: 0.5em;
+            font: 500 0.85em/1 var(--font);
+            text-transform: uppercase;
+            color: #4a4438;
+            pointer-events: none;
         }
 
-        .box-main .col {
-            background: #6f6a60;
-            padding: 1em;
-        }
-
-        .box-color .col {
-            background: #6f6a60;
-            padding: 0.5em;
-        }
-
-        .box-color h4 {
-            font-weight: bold;
-        }
-
-        .box-color h4:empty {
+        .box-colorized {
             display: none;
         }
-
-        .btn {
-            padding: 1em;
-            text-transform: uppercase;
-            background: white;
-            font: 0.7em var(--font);
+        
+        .box-colorized.is-visible {
+            display: block;
         }
 
-        input[class^="btn-"] {
+        button[class^="color-"], .button-copy, .button-reset {
             background: #595445;
             border: solid 1px #554f3f;
             display: inline-flex;
             justify-content: center;
             align-items: center;
-            vertical-align: middle;
             border-radius: 0.15em;
-            padding: 0.25em 0.5em;
-            font-weight: 200;
+            padding: 0em 0.5em;
+            font-weight: 500;
             text-transform: uppercase;
             font-family: var(--font);
             height: 2em;
             line-height: 1;
             min-width: 2.5em;
+            flex: 0 1 auto;
+            appearance: none;
+            -webkit-appearance: none;
         }
 
-        .btn-color:hover, .btn-copy:hover {
+        button[class^="color-"]:hover, .button-copy:hover, .button-reset:hover {
             background: #4f493b;
-            border: solid 1px #484336;
+            border: solid 1px #554f3f;
+        }
+        
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3em;
+            justify-content: center;
         }
 
-        .btn-green {
+        .status-green {
             color: white !important;
             background: green !important;
         }
 
-        #input1 {
+        .status-red {
+            color: white !important;
+            background: firebrick !important;
+        }
+        
+        #colorize-this {
             background: #4f4b4070;
-            padding: 0.5em;
             color: #392d1a;
             width: 100%;
             border: solid 1px #554f3f;
             text-align: center;
-
+            padding: 0.5em;
+            margin-bottom: 0.5em;
         }
 
-        input:focus {
-            outline: none; /* solid 1px #484336; */
+        .color-0 { color: black; }
+        .color-1 { color: red; }
+        .color-2 { color: lime; }
+        .color-3 { color: yellow; }
+        .color-4 { color: blue; }
+        .color-5 { color: cyan; }
+        .color-6 { color: magenta; }
+        .color-7 { color: white; }
+        .color-8 { color: purple; }
+        .color-9 { color: grey; }
+        .button-copy, .button-reset { color: grey; }
+        
+        @media (max-width: 25em) {
+            .button-group button {
+                flex: 1 1 20%;
+                min-width: 2.5em;
+            }
         }
-
-        .q3-0,.btn-0 {
-            color: black;
-        }
-
-        .q3-1, .btn-1 {
-            color: red;
-        }
-
-        .q3-2, .btn-2 {
-            color: lime;
-        }
-
-        .q3-3, .btn-3 {
-            color: yellow;
-        }
-
-        .q3-4,.btn-4 {
-            color: blue;
-        }
-
-        .q3-5, .btn-5 {
-            color: cyan;
-        }
-
-        .q3-6, .btn-6 {
-            color: magenta;
-        }
-
-        .q3-7, .btn-7 {
-            color: white;
-        }
-
-        .q3-8, .btn-8 {
-            color: purple;
-        }
-
-        .q3-9, .btn-9 {
-            color: grey;
+        
+        @media (max-width: 35em) {
+            #button-reset { order: 98; }
+            #button-copy { order: 99; }
         }
     </style>
 </head>
 <body class="container">
     <div class="box-main">
-        <div class="row">
-            <div class="12 col">
-                <h6>
-                    <a href="https://github.com/spacegears/cod-colorizer" target="_blank">cod-colorizer by spacegears</a>
-                </h6>
-            </div>
+        <div class="box-sub">
+            <h6>
+                <a href="https://github.com/spacegears/cod-colorizer" target="_blank">cod-colorizer</a>
+            </h6>
         </div>
     </div>
     <div class="box-main">
-        <div class="row">
-            <div class="12 col">
-                <input type="text" id="input1" placeholder="^0Example^5Player^6Name" autofocus/>
-                <input type="button" class="btn-0 btn-color" value="^0" title="Black"/>
-                <input type="button" class="btn-1 btn-color" value="^1" title="Red"/>
-                <input type="button" class="btn-2 btn-color" value="^2" title="Green"/>
-                <input type="button" class="btn-3 btn-color" value="^3" title="Yellow"/>
-                <input type="button" class="btn-4 btn-color" value="^4" title="Blue"/>
-                <input type="button" class="btn-5 btn-color" value="^5" title="Cyan"/>
-                <input type="button" class="btn-6 btn-color" value="^6" title="Magenta"/>
-                <input type="button" class="btn-7 btn-color" value="^7" title="White"/>
-                <input type="button" class="btn-8 btn-color" value="^8" title="* Special, changes color depending on map and current team (CoD:UO only)&#010;American = Dark Green&#010;Russian = Dark Red / Maroon&#010;British = Dark Blue&#010;Custom maps = Purple (?)"/>
-                <input type="button" class="btn-9 btn-color" value="^9" title="Grey"/>
-                <input type="button" class="btn-9 btn-copy" value="COPY" id="copy" title="Copy to clipboard" onclick="copyText(event)"/>
+        <div class="box-sub">
+            <input type="text" id="colorize-this" placeholder="^5Example^6Player^7Name" autofocus>
+            <div class="button-group">
+                <button type="button" class="button-reset" id="button-reset" title="Clear input">RESET</button>
+                <button type="button" class="color-0" title="Black">^0</button>
+                <button type="button" class="color-1" title="Red">^1</button>
+                <button type="button" class="color-2" title="Green">^2</button>
+                <button type="button" class="color-3" title="Yellow">^3</button>
+                <button type="button" class="color-4" title="Blue">^4</button>
+                <button type="button" class="color-5" title="Cyan">^5</button>
+                <button type="button" class="color-6" title="Magenta">^6</button>
+                <button type="button" class="color-7" title="White">^7</button>
+                <button type="button" class="color-8" title="* Special, changes color depending on map and current team (CoD:UO only)&#010;American = Dark Green&#010;Russian = Dark Red / Maroon&#010;British = Dark Blue&#010;Custom maps = Purple (?)">^8</button>
+                <button type="button" class="color-9" title="Grey (CoD:UO only)">^9</button>
+                <button type="button" class="button-copy" id="button-copy" title="Copy to clipboard">COPY</button>
             </div>
         </div>
     </div>
-    <div class="box-color">
-        <div class="row">
-            <div class="12 col">
-                <h4 id="colored"></h4>
-            </div>
+    <div class="box-colorized">
+        <div class="box-sub">
+            <span class="box-label">Scoreboard</span>
+            <h4 id="colorized-scoreboard"></h4>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <div class="box-colorized">
+        <div class="box-sub">
+            <span class="box-label">Killfeed</span>
+            <h4 id="colorized-killfeed"></h4>
+        </div>
+    </div>
     <script>
-        input1.addEventListener("input", function (e) {
-            var str = document.getElementById("input1").value;
-            var strip = /\^\^[0-9]([0-9])/g;
-            var regex = /\^([0-9])([^\^]+)/g;
-            var prepared = str.replace(strip, "^$1");
-            /* document.getElementById("colored").innerHTML = str.replace(regex, "<span class='q3-$1'>$2</span>"); --- It works but only with single tag */
-            document.getElementById("colored").innerHTML = prepared.replace(
-                regex,
-                "<span class='q3-$1'>$2</span>",
-            );
-        });
+        const input = document.getElementById("colorize-this");
+        const copybutton = document.getElementById("button-copy");
+        const resetbutton = document.getElementById("button-reset");
+        const containers = document.querySelectorAll(".box-colorized");
+        
+        const colorizedScoreboard = document.getElementById("colorized-scoreboard");
+        const colorizedKillfeed = document.getElementById("colorized-killfeed");
 
-        $(".btn-color").on("click", function () {
-            var cursorPos = $("#input1").prop("selectionStart");
-            var v = $("#input1").val();
-            var textBefore = v.substring(0, cursorPos);
-            var textAfter = v.substring(cursorPos, v.length);
-            $("#input1").val(textBefore + $(this).val() + textAfter);
-            $("#input1").focusTextToEnd();
-        });
+        input.addEventListener("input", () => {
+            const raw = input.value.trim();
 
-        /* https://stackoverflow.com/a/24635747 */
-        (function ($) {
-            $.fn.focusTextToEnd = function () {
-                this.focus();
-                var $thisVal = this.val();
-                this.val("").val($thisVal);
-                return this;
-            };
-        })(jQuery);
-
-        /* https://codepen.io/clement-gaudiniere/pen/bGaKjJY */
-        var input = document.getElementById("input1");
-
-        copyText = (e) => {
-            if (input.value.length) {
-                navigator.clipboard.writeText(input.value).then(() => {
-                    document.getElementById("copy").classList.add("btn-green");
-                    setTimeout(() => {
-                        document
-                            .getElementById("copy")
-                            .classList.remove("btn-green");
-                    }, 700);
+            if (!raw) {
+                colorizedScoreboard.innerHTML = "";
+                colorizedKillfeed.innerHTML = "";
+                containers.forEach(container => {
+                    container.classList.remove("is-visible");
                 });
+                return;
             }
-        };
+
+            const parsedScoreboard = parseCoDScoreboard(raw);
+            colorizedScoreboard.innerHTML = parsedScoreboard.rich;
+
+            const parsedKillfeed = parseCoDKillfeed(raw);
+            colorizedKillfeed.innerHTML = parsedKillfeed;
+
+            containers.forEach(container => {
+                container.classList.add("is-visible");
+            });
+        });
+
+        document.querySelectorAll("button[class^='color-']").forEach(button => {
+            button.addEventListener("click", () => {
+                const insertColor = button.textContent;
+                insertAtCursor(input, insertColor);
+        	});
+        });
+        
+        function parseCoDScoreboard(text) {
+            let out = "";
+            let plain = "";
+            let color = "7";
+            let firstColor = null;
+            let literalCaret = false;
+
+            for (let i = 0; i < text.length; i++) {
+
+                // ^^ → literal caret
+                if (text[i] === "^" && text[i + 1] === "^") {
+                    out += `<span class="color-${color}">^</span>`;
+                    plain += "^";
+                    literalCaret = true;
+                    continue;
+                }
+
+                // ^X → color change
+                if (text[i] === "^" && text[i + 1] >= "0" && text[i + 1] <= "9") {
+                    const digit = text[i + 1];
+
+                    // skip ^0 ONLY if it did NOT come from ^^
+                    if (digit === "0" && !literalCaret) {
+                        i++;
+                        continue;
+                    }
+
+                    if (firstColor === null) firstColor = digit;
+                    color = digit;
+                    i++;
+                    literalCaret = false;
+                    continue;
+                }
+
+                // normal character
+                out += `<span class="color-${color}">${text[i]}</span>`;
+                plain += text[i];
+                literalCaret = false;
+            }
+
+            return {
+                rich: out,
+                plain,
+                firstColor: firstColor ?? "7"
+            };
+        }
+
+        function parseCoDKillfeed(text) {
+            let out = "";
+            let color = "7"; // default: white
+            let buffer = "";
+            let foundDoubleCaretColor = false; // ^^XY found
+            let foundDoubleCaretSingleDigit = false; // ^^X found
+
+            function flushBuffer() {
+                if (buffer.length) {
+                    out += `<span class="color-${color}">${buffer}</span>`;
+                    buffer = "";
+                }
+            }
+
+            for (let i = 0; i < text.length; i++) {
+                const c = text[i];
+                if (c === "^") {
+                    const next1 = text[i + 1];
+                    const next2 = text[i + 2];
+                    const next3 = text[i + 3];
+
+                    // ^^XY color change
+                    if (next1 === "^" && next2 >= "0" && next2 <= "9" && next3 >= "0" && next3 <= "9") {
+                        flushBuffer();
+                        color = next3;
+                        foundDoubleCaretColor = true;
+                        i += 3;
+                        continue;
+                    }
+
+                    // ^^X output caret literal, skip ^X
+                    if (next1 === "^" && next2 >= "0" && next2 <= "9") {
+                        buffer += "^";
+                        foundDoubleCaretSingleDigit = true;
+                        i += 2;
+                        continue;
+                    }
+
+                    // single caret + digit skip
+                    if (next1 >= "0" && next1 <= "9") {
+                        i++;
+                        continue;
+                    }
+
+                    continue; // lone caret skip
+                }
+ 
+                buffer += c; // normal char buffer
+            }
+
+            flushBuffer();
+
+            if (!foundDoubleCaretColor && !foundDoubleCaretSingleDigit) {
+                const cleanText = text.replace(/\^[0-9]/g, "").replace(/\^/g, "");
+                out = `<span class="color-7">${cleanText}</span>`;
+            }
+
+            return out;
+        }
+        
+        function insertAtCursor(el, text) {
+            const start = el.selectionStart;
+            const end = el.selectionEnd;
+            el.value = el.value.slice(0, start) + text + el.value.slice(end);
+            el.selectionStart = el.selectionEnd = start + text.length;
+            el.focus();
+        }
+
+        copybutton.addEventListener("mousedown", e => e.preventDefault());
+        copybutton.addEventListener("click", () => {
+            if (!input.value.trim()) return;
+            
+            navigator.clipboard.writeText(input.value).then(() => {
+                copybutton.classList.add("status-green");
+                setTimeout(() => copybutton.classList.remove("status-green"), 700);
+                input.focus();
+            });
+        });
+
+        resetbutton.addEventListener("mousedown", e => e.preventDefault());
+        resetbutton.addEventListener("click", () => {
+            input.value = "";
+            colorizedScoreboard.textContent = "";
+            colorizedKillfeed.textContent = "";
+            containers.forEach(container => {
+                container.classList.remove("is-visible");
+            });
+            resetbutton.classList.add("status-red");
+            setTimeout(() => resetbutton.classList.remove("status-red"), 350);
+            input.focus();
+        });
     </script>
 </body>
+</html>
